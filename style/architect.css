@@ -144,12 +144,41 @@ main > section{
 .gray {
   filter: grayscale(100%);
 }
+#feature-section-title{
+  border-left: 5px solid #FF900E ;
+  padding-left: 9px ; 
+
+}
+.feature-card{
+padding: 20px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+  border: 8px;
+}
+.features{
+  gap: 100px;
+}
+  
+
+.feature-card .feature-title{
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+#im{
+  width: 100%;
+}
+
+  
+
 
 
 
 /* rexponsive */
 @media  screen and (max-width: 576px) {
-  .navbar, .nav-links, .tems{
+  .navbar, .nav-links, .tems, .features{
     flex-direction: column;
   }
   .team-img-container, .Facts-containar, .sponsor-companes{
