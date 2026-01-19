@@ -167,9 +167,7 @@ padding: 20px;
   margin-bottom: 0px;
 
 }
-#im{
-  width: 100%;
-}
+
 
   
 
@@ -187,9 +185,11 @@ padding: 20px;
  .Facts-containar, .sponsor-companes{
   justify-items: center;
   gap: 24px;
-
-  
-}}
+}
+ #im{
+  width: 100%;
+ }
+ }
 /* midium device */
 @media screen and (min-width:576px) and (max-width:992px) {
   .tems{
